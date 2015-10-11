@@ -6,7 +6,7 @@ var VirtualList = React.createClass({
         items: React.PropTypes.array.isRequired,
         itemHeight: React.PropTypes.number.isRequired,
         renderItem: React.PropTypes.func.isRequired,
-        container: React.PropTypes.object.isRequired,
+        container: React.PropTypes.object,
         tagName: React.PropTypes.string.isRequired,
         scrollDelay: React.PropTypes.number,
         itemBuffer: React.PropTypes.number,
